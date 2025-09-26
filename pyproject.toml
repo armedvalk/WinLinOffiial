@@ -1,0 +1,10 @@
+[project]
+name = "workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "pyautogui==0.9.54",
+    "pygame==2.6.1",
+    "virustotal3==1.0.8",
+]
