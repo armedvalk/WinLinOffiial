@@ -6,5 +6,6 @@ requires-python = ">=3.11"
 dependencies = [
     "pyautogui==0.9.54",
     "pygame==2.6.1",
+    "pyinstaller==6.11.1",
     "virustotal3==1.0.8",
 ]
