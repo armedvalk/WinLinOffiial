@@ -17,8 +17,9 @@ def HardeningScript():
   elif OperatingS=="Linux":
     subprocess.run("lh.sh")
   else:
-    pyautogui.alert("Your opperating system is not supported yet."
-
+    pyautogui.alert("Your opperating system is not supported yet.")
+  return
+                    
 def main():
   pyautogui.alert("Please run this app as an administrator, otherwise the scripts do not run.")
   pyautogui.alert("This script is for windows and linux only. Not for cisco packt tracer.")
