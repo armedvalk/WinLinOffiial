@@ -16,7 +16,9 @@ def ScriptRun():
          subprocess.run("Ubuntu.sh")
       elif Distro == "2" or "[2]":
           subprocess.run("Mint.sh")
-
+      else:
+         print("INVALID ENTRY PLEASE TRY AGAIN")
+         sys.exit(1)
 def  main():
     ScriptRun()
          
